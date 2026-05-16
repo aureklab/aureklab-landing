@@ -1,18 +1,5 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  async rewrites() {
-    return [
-      {
-        source: "/wilddetector",
-        destination: "https://wild-landing-eight.vercel.app/",
-      },
-      {
-        source: "/wilddetector/:path*",
-        destination: "https://wild-landing-eight.vercel.app/:path*",
-      },
-    ];
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
