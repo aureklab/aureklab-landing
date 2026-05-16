@@ -5,11 +5,11 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/wilddetector",
-        destination: "https://wild-landing-o4tjka0ch-trumanhuman001-3750s-projects.vercel.app/",
+        destination: "https://wild-landing-eight.vercel.app/",
       },
       {
         source: "/wilddetector/:path*",
-        destination: "https://wild-landing-o4tjka0ch-trumanhuman001-3750s-projects.vercel.app/:path*",
+        destination: "https://wild-landing-eight.vercel.app/:path*",
       },
     ];
   },
