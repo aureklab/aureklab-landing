@@ -3,7 +3,7 @@ const PRODUCTS = [
     emoji: "🌿",
     name: "WildDetector",
     desc: "On-device AI that detects wildlife by sound and sight. Pollinators, amphibians, birds, reptiles — in real time.",
-    url: "https://wild-landing.vercel.app",
+    url: "/wilddetector",
     color: "border-green-700 hover:border-green-500",
     badge: "Available on Android",
     badgeColor: "bg-green-900 text-green-400",
