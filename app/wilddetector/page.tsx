@@ -176,6 +176,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* External Mic */}
+      <section className="px-6 py-16 bg-[#0d0d0d]">
+        <div className="max-w-3xl mx-auto flex flex-col items-center text-center gap-4">
+          <span className="text-5xl">🎙️</span>
+          <h2 className="text-3xl font-bold">External microphone support</h2>
+          <p className="text-gray-400 max-w-xl">
+            Connect a specialized microphone to extend detection range and accuracy.
+            WildDetector supports microphones via the phone's headphone jack and
+            USB audio interfaces for professional field recording equipment.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 w-full">
+            <div className="bg-[#141414] border border-gray-800 rounded-xl p-5 text-left">
+              <h3 className="font-semibold mb-1">🎧 Headphone jack</h3>
+              <p className="text-gray-500 text-sm">Plug in any TRRS microphone directly into the phone's audio input. Compatible with directional and lavalier mics.</p>
+            </div>
+            <div className="bg-[#141414] border border-gray-800 rounded-xl p-5 text-left">
+              <h3 className="font-semibold mb-1">🔌 USB audio interface</h3>
+              <p className="text-gray-500 text-sm">Connect professional-grade microphones via USB OTG. Supports XLR mics, parabolic dishes, and hydrophones through standard USB audio interfaces.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Live Map */}
       <section className="px-6 py-16 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-2">Live detection map</h2>
