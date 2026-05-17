@@ -17,7 +17,7 @@ const PLANS = [
     color: "border-gray-700",
     badge: "",
     features: [
-      "5-minute detection sessions",
+      "3-minute detection sessions",
       "All species detectors",
       "Session log",
       "Public detections on map",

@@ -193,8 +193,8 @@ export default function Docs() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
               {[
-                { tier: "Guest",   color: "border-gray-700", features: ["5-min sessions", "All detectors", "Local session log", "Nothing saved to cloud"] },
-                { tier: "Signed In (Free)", color: "border-blue-700", features: ["5-min sessions", "Detections saved to cloud", "GPS coordinates logged", "Public on live map", "My Detections history"] },
+                { tier: "Guest",   color: "border-gray-700", features: ["3-min sessions", "All detectors", "Local session log", "Nothing saved to cloud"] },
+                { tier: "Signed In (Free)", color: "border-blue-700", features: ["3-min sessions", "Detections saved to cloud", "GPS coordinates logged", "Public on live map", "My Detections history"] },
                 { tier: "Premium", color: "border-green-500", features: ["Unlimited sessions", "Everything in Free", "Private detections option", "$10 / month or $80 / year"] },
               ].map(t => (
                 <div key={t.tier} className={`bg-[#141414] border-2 ${t.color} rounded-xl p-4`}>
