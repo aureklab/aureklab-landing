@@ -94,6 +94,13 @@ export default function Home() {
         >
           📲 Get on Google Play
         </a>
+        <a
+          href="https://wild-dashboard.vercel.app"
+          target="_blank"
+          className="border border-green-700 hover:border-green-400 text-green-400 px-8 py-3 rounded-full text-lg font-semibold transition"
+        >
+          🗺️ Live Dashboard
+        </a>
         <p className="text-gray-600 text-sm">Android 8.0+ · Free to start</p>
       </section>
 
