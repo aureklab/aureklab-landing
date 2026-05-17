@@ -97,6 +97,18 @@ export default function Home() {
         <p className="text-gray-600 text-sm">Android 8.0+ · Free to start</p>
       </section>
 
+      {/* Demo Video */}
+      <section className="px-6 py-8 max-w-3xl mx-auto flex flex-col items-center gap-4">
+        <video
+          className="w-full rounded-2xl border border-gray-800"
+          src="/wilddetector-demo.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+      </section>
+
       {/* Tutorial Video */}
       <section className="px-6 py-16 max-w-3xl mx-auto flex flex-col items-center gap-6">
         <h2 className="text-3xl font-bold text-center">See it in action</h2>
