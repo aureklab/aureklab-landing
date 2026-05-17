@@ -2,10 +2,10 @@ import MapSection from "./components/MapSection";
 import YouTubeEmbed from "./components/YouTubeEmbed";
 
 const SPECIES = [
-  { emoji: "🐝", name: "Pollinators",           desc: "Detects pollinator presence by wing-beat frequency and audio patterns." },
+  { emoji: "🐝", name: "Pollinators (binary)",   desc: "Detects pollinator presence by wing-beat frequency and audio patterns." },
   { emoji: "🐸", name: "Amphibians (multiclass)", desc: "Identifies amphibian calls at night or near water sources." },
-  { emoji: "🦜", name: "Avian",                 desc: "Recognizes bird songs across hundreds of species." },
-  { emoji: "🦎", name: "Reptiles",              desc: "Visual detection of reptiles using on-device AI visual model." },
+  { emoji: "🦜", name: "Avian (binary)",         desc: "Detects bird presence by song and visual. Binary: present or not." },
+  { emoji: "🦎", name: "Reptiles (binary)",     desc: "Visual detection of reptiles using on-device AI visual model." },
   { emoji: "🔍", name: "General",               desc: "No species model. Uses anomaly and motion detection to catch any unusual activity." },
 ];
 

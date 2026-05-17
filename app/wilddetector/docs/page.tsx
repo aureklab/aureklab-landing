@@ -53,10 +53,10 @@ export default function Docs() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                { emoji: "🐝", name: "Pollinators",           models: "Audio CNN + Motion detector",   detail: "Detects the characteristic wing-beat frequency of bees and other pollinators (around 200–300 Hz). Works best 0.5–2 m from the hive or flowers." },
-                { emoji: "🐸", name: "Amphibians (multiclass)", models: "Audio CNN",                   detail: "Identifies calls from multiple amphibian species. Works best at night near water sources." },
-                { emoji: "🦜", name: "Avian",                 models: "Audio CNN + AI visual",          detail: "Combines audio classification with visual detection. Can identify species by song even without a visual." },
-                { emoji: "🦎", name: "Reptiles",              models: "AI visual",                      detail: "Primarily visual detection using an on-device AI model running at 10–15 FPS. Point the camera at the subject." },
+                { emoji: "🐝", name: "Pollinators (binary)",     models: "Audio CNN + Motion detector",  detail: "Detects pollinator presence by wing-beat frequency (~200–300 Hz). Binary: present or not. Works best 0.5–2 m from the hive or flowers." },
+                { emoji: "🐸", name: "Amphibians (multiclass)", models: "Audio CNN",                    detail: "Identifies calls from multiple amphibian species. Multiclass: identifies the specific species detected. Works best at night near water sources." },
+                { emoji: "🦜", name: "Avian (binary)",           models: "Audio CNN + AI visual",        detail: "Detects bird presence by song and visual. Binary: present or not. Can detect presence even without a visual." },
+                { emoji: "🦎", name: "Reptiles (binary)",        models: "AI visual",                    detail: "Visual detection of reptiles at 10–15 FPS. Binary: present or not. Point the camera at the subject." },
                 { emoji: "🔍", name: "General",               models: "Anomaly + Motion only",          detail: "No species-specific model. Uses anomaly detection and motion tracking to catch any unusual activity. Ideal for unknown species or custom field setups." },
               ].map(s => (
                 <div key={s.name} className="bg-[#141414] border border-gray-800 rounded-xl p-5">
