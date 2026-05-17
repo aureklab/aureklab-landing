@@ -101,7 +101,7 @@ export default function Home() {
       <section className="px-6 py-16 max-w-3xl mx-auto flex flex-col items-center gap-6">
         <h2 className="text-3xl font-bold text-center">See it in action</h2>
         <p className="text-gray-500 text-center">Full walkthrough of every feature in under 10 minutes.</p>
-        <YouTubeEmbed videoId="-MyrFbHuOIc" />
+        <YouTubeEmbed videoId="DGuiXhhd5Fk" />
       </section>
 
       {/* Species */}
