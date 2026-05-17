@@ -103,8 +103,7 @@ export default function Home() {
           className="w-full rounded-2xl border border-gray-800"
           src="/wilddetector-demo.mp4"
           autoPlay
-          loop
-          muted
+          controls
           playsInline
         />
       </section>
